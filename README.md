@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# ttc-rubiks-cube
+Rubik’s Cube Coding Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+# Steps to run the application
 
-In the project directory, you can run:
+1. clone github repository
+   `git clone https://github.com/NorbertDabrowski/ttc-rubiks-cube.git`
 
-### `npm start`
+2. open cloned code in source-code editor (i.e. VS Code)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. in Terminal run `npm install` and then `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. open web browser and navigate to `http://localhost:3000/`
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Coding exercise
+Develop a program that simulates a Rubik’s cube. The aim of the program is not to solve the cube, just to
+develop a programmatic Rubik’s cube that can correctly rotate any face.
+The solution can be developed in any language however, it must be both buildable and runnable on a
+Windows PC and ideally shared through a GitHub account or similar repository.
 
-### `npm run build`
+You can use https://rubiks-cube-solver.com/ to help you develop your solution.
+The initial state of the cube in your solution should be “solved” and you should set
+your cube up the same way as they do.
+To test your solution, print out the colours on each face after applying the following face rotations to the
+starting position:
+1. Front face clockwise 90°
+2. Right face anti-clockwise 90°
+3. Up face clockwise 90°
+4. Back face anti-clockwise 90°
+5. Left face clockwise 90°
+6. Down face anti-clockwise 90°
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On https://rubiks-cube-solver.com/ this sequence can be setup on their UI using the following buttons in order:
+`F R' U B' L D'`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You do not need to provide a UI, a solution that contains a console write statement is perfectly acceptable.
+Although a working solution gets bonus points, what we are mainly assessing is if your code is close to
+‘production quality’ in terms of being readable, maintainable, testable etc.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### TOP TIPS:
+- Focus on the structure of the code – allow us to see your thought process
+- Provide a Readme with instructions on how to build/run your program
