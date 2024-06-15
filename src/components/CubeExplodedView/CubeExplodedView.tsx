@@ -11,22 +11,22 @@ export const CubeExplodedView = (props: IProps) => {
       <table className="center">
         <tbody>
           <tr>
-            <th></th>
-            <th><CubeFace cublets={props.cube.faceUp} /></th>
-            <th></th>
-            <th></th>
+            <td></td>
+            <td><CubeFace cublets={props.cube.faceUp} /></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <th><CubeFace cublets={props.cube.faceLeft} /></th>
-            <th><CubeFace cublets={props.cube.faceFront} /></th>
-            <th><CubeFace cublets={props.cube.faceRight} /></th>
-            <th><CubeFace cublets={props.cube.faceBack} /></th>
+            <td><CubeFace cublets={props.cube.faceLeft} /></td>
+            <td><CubeFace cublets={props.cube.faceFront} /></td>
+            <td><CubeFace cublets={props.cube.faceRight} /></td>
+            <td><CubeFace cublets={props.cube.faceBack} /></td>
           </tr>
           <tr>
-            <th></th>
-            <th><CubeFace cublets={props.cube.faceDown} /></th>
-            <th></th>
-            <th></th>
+            <td></td>
+            <td><CubeFace cublets={props.cube.faceDown} /></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>

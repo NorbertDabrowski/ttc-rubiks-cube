@@ -37,19 +37,19 @@ export const CubeFace = (props: IProps) => {
       <table>
         <tbody>
           <tr>
-            <th>{renderCublet(0)}</th>
-            <th>{renderCublet(1)}</th>
-            <th>{renderCublet(2)}</th>
+            <td>{renderCublet(0)}</td>
+            <td>{renderCublet(1)}</td>
+            <td>{renderCublet(2)}</td>
           </tr>
           <tr>
-            <th>{renderCublet(3)}</th>
-            <th>{renderCublet(4)}</th>
-            <th>{renderCublet(5)}</th>
+            <td>{renderCublet(3)}</td>
+            <td>{renderCublet(4)}</td>
+            <td>{renderCublet(5)}</td>
           </tr>
           <tr>
-            <th>{renderCublet(6)}</th>
-            <th>{renderCublet(7)}</th>
-            <th>{renderCublet(8)}</th>
+            <td>{renderCublet(6)}</td>
+            <td>{renderCublet(7)}</td>
+            <td>{renderCublet(8)}</td>
           </tr>
         </tbody>
       </table>

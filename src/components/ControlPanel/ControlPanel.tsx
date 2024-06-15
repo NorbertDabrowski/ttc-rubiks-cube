@@ -20,20 +20,20 @@ export const ControlPanel = (props: IProps) => {
       <table className="center">
         <tbody>
           <tr>
-            <th>{renderButton(EFaceRotation.FrontClockwise)}</th>
-            <th>{renderButton(EFaceRotation.RightClockwise)}</th>
-            <th>{renderButton(EFaceRotation.UpClockwise)}</th>
-            <th>{renderButton(EFaceRotation.BackClockwise)}</th>
-            <th>{renderButton(EFaceRotation.LeftClockwise)}</th>
-            <th>{renderButton(EFaceRotation.DownClockwise)}</th>
+            <td>{renderButton(EFaceRotation.FrontClockwise)}</td>
+            <td>{renderButton(EFaceRotation.RightClockwise)}</td>
+            <td>{renderButton(EFaceRotation.UpClockwise)}</td>
+            <td>{renderButton(EFaceRotation.BackClockwise)}</td>
+            <td>{renderButton(EFaceRotation.LeftClockwise)}</td>
+            <td>{renderButton(EFaceRotation.DownClockwise)}</td>
           </tr>
           <tr>
-            <th>{renderButton(EFaceRotation.FrontInverted)}</th>
-            <th>{renderButton(EFaceRotation.RightInverted)}</th>
-            <th>{renderButton(EFaceRotation.UpInverted)}</th>
-            <th>{renderButton(EFaceRotation.BackInverted)}</th>
-            <th>{renderButton(EFaceRotation.LeftInverted)}</th>
-            <th>{renderButton(EFaceRotation.DownInverted)}</th>
+            <td>{renderButton(EFaceRotation.FrontInverted)}</td>
+            <td>{renderButton(EFaceRotation.RightInverted)}</td>
+            <td>{renderButton(EFaceRotation.UpInverted)}</td>
+            <td>{renderButton(EFaceRotation.BackInverted)}</td>
+            <td>{renderButton(EFaceRotation.LeftInverted)}</td>
+            <td>{renderButton(EFaceRotation.DownInverted)}</td>
           </tr>
         </tbody>
       </table>
